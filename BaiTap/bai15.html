@@ -15,32 +15,59 @@
 </head>
 <body>
     <h2>Contact Us</h2>
-    <p>Use the following form to send a message to Example Cafe</p>
-    <fieldset>
-        <legend>Your message:</legend>
-        <label for="to"  style="margin-right: 141px;">To</label>
-        <input type="text"><br>
-        <label for="email" style="margin-right: 87px;">Your email</label>
-        <input type="text" id="email" style="margin-top: 10px;"><br>
-        <label for="message" style="margin-right: 102px;">Message</label>
-        <textarea name="" id="message" cols="30" rows="10" style="margin-top: 10px;"></textarea><br>
-    </fieldset>
-    <fieldset>
-        <legend>How you found us</legend>
-        <label for="hear">How did you hear of us?</label>
-        <select name="" id="hear"><option value="">google</option></select><br>
-        <label for="news" style="margin-right: 83px;">Newsletter</label>
-        <input type="checkbox"><span>Ensure this box is checked if you would like to receive email updates</span><br>
-    </fieldset>
-    <input type="submit" value="Send message">
-    <fieldset>
-        <legend><i>Contact Information</i></legend>
-        <label for="fn">First Name: </label>
-        <input type="text" id="fn"><br>
-        <label for="ln">Last Name: </label>
-        <input type="text" id="ln"><br>
-        <label for="em">Email: </label>
-        <input type="text" id="em"><br>
-    </fieldset>
+    <div class="contact">
+        <p>Use the following form to send a message to Example Cafe</p>
+        <fieldset>
+            <legend>Your message:</legend>
+            <label for="to"  style="margin-right: 141px;">To</label>
+            <input type="text"><br>
+            <label for="email" style="margin-right: 87px;">Your email</label>
+            <input type="text" id="email" style="margin-top: 10px;"><br>
+            <label for="message" style="margin-right: 102px;">Message</label>
+            <textarea name="" id="message" cols="30" rows="10" style="margin-top: 10px;"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us</legend>
+            <label for="hear">How did you hear of us?</label>
+            <select name="" id="hear"><option value="">google</option></select><br>
+            <label for="news" style="margin-right: 83px;">Newsletter</label>
+            <input type="checkbox"><span>Ensure this box is checked if you would like to receive email updates</span><br>
+        </fieldset>
+        <input type="submit" value="Send message">
+       
+    </div>
+    <div class="contact-inf">
+        <fieldset>
+            <legend><i>Contact Information</i></legend>
+            <label for="fn">First Name: </label>
+            <input type="text" id="fn"><br>
+            <label for="ln">Last Name: </label>
+            <input type="text" id="ln"><br>
+            <label for="em">Email: </label>
+            <input type="text" id="em"><br>
+        </fieldset>
+        <fieldset>
+            <legend><i>Competition Question</i></legend>
+            <label for="ht">How tall is the Eiffel Tower in Paris, France</label>
+            <br><input type="radio" id="584ft" name="how-tall">
+            <label for="584ft">584ft</label><br>
+            <input type="radio" id="784ft" name="how-tall">
+            <label for="784ft">784ft</label><br>
+            <input type="radio" id="984ft" name="how-tall">
+            <label for="984ft">984ft</label><br>
+            <input type="radio" id="1184ft" name="how-tall">
+            <label for="1184ft">1184ft</label>
+        </fieldset>
+        <fieldset>
+            <legend><i>Tiebreaker Question</i></legend>
+            <label for="word">In 25 words or less, say why you would like to win $10000:</label><br>
+            <textarea name="txt" id="word" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><i>Enter Competition</i></legend>
+            <input type="button" value="Enter Competition" >
+        </fieldset>
+    </div>
+
 </body>
 </html>
